@@ -1,0 +1,120 @@
+:root {
+ --branding-color: #ff487e; 
+ --secondry-color: #f9f9fd; 
+}
+body {
+    margin-left: 20px; 
+    font-family: 'Charis SIL', serif;
+ font-family: 'Lobster', cursive;
+ font-family: 'Nunito', sans-serif;
+ font-family: 'Playfair Display', serif;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Zilla Slab', serif;
+}
+.navbar {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.nav a:hover,
+.nav li.active a {
+    color: var(--branding-color) !important;
+}
+h1 {
+    
+    margin-top: 20px;
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-weight: 700;
+    margin-top: 250px;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+h5 {
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.btn-branding {
+    background: var(--branding-color);
+    color: white;
+    font-size: 16px;
+   padding: 0px 30px;
+    border: 1px solid var(--branding-color);
+    line-height: 46px;
+    transition: all 150ms ease-in-out;
+    text-align: center;
+}
+.btn-primary {
+    color: black;
+    background: white;
+    border: 1px solid var(--branding-color);
+    padding: 10px 30px;
+    transition: all 150ms ease-in-out;
+}
+.btn-branding:hover {
+    background: white;
+}
+.btn-primary:hover {
+    background: var(--branding-color);
+}
+img {
+    border-radius: 5px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 26px;
+    font-size: 15px;
+}
+.about-us {
+    margin-top: 200px;
+}
+div .brand {
+    max-width: 80px;
+    margin: 0 auto;
+    width: 170px;
+    height: 100px;
+    margin-bottom: 30px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.design {
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 10px solid white;
+    background: var(--secondry-color);
+}
+.container-design {
+    margin-top: 100px;
+
+}
+.container-design p {
+    opacity: 70%;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.design:hover {
+    background: white;
+box-shadow: 5px 5px 5px rgb(125, 90, 141)
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
