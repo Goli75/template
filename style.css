@@ -1,5 +1,5 @@
 :root {
- --branding-color: #ff487e; 
+ --branding-color: #854fee;
  --secondry-color: #f9f9fd; 
 }
 body {
@@ -38,14 +38,18 @@ h3 {
     margin-top: 250px;
 }
 h4 {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1.5;
+    margin-top: 6px;
+
 }
-h5 {
+ h5 {
     margin-top: 100px;
     font-size: 36px;
     font-weight: bolder;
     line-height: 1.5;
+    margin-left: 30px;
 }
 .btn-branding {
     background: var(--branding-color);
@@ -116,5 +120,16 @@ ul li {
     list-style: none;
 }
 ul li a {
+    text-decoration:none;
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+ul li a:hover,
+ li.active {
+    color: var(--branding-color);
     text-decoration: none;
+}
+footer {
+    margin-top: 100px;
 }
