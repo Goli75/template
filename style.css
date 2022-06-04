@@ -51,6 +51,11 @@ h4 {
     line-height: 1.5;
     margin-left: 30px;
 }
+h6 {
+    font-weight: 500;
+    margin-top: 10px;
+    color: black;
+}
 .btn-branding {
     background: var(--branding-color);
     color: white;
@@ -74,7 +79,7 @@ h4 {
 .btn-primary:hover {
     background: var(--branding-color);
 }
-img {
+.woman {
     border-radius: 5px;
     max-width: 100%;
     margin-top: 30px;
@@ -97,20 +102,21 @@ div .brand {
     cursor: pointer;
 }
 .design {
-    margin-bottom: 30px;
-    padding: 5px 10px;
+    margin-bottom: 20px;
     text-align: center;
     border: 10px solid white;
     background: var(--secondry-color);
 }
+.design p {
+    font-size:  27px !important;
+line-height: 30px;
+margin-top: 10px;
+line-height: 40px;
+margin-bottom: 15px;
+}
 .container-design {
     margin-top: 100px;
 
-}
-.container-design p {
-    opacity: 70%;
-    font-size: 19px;
-    margin-top: 10px;
 }
 .design:hover {
     background: white;
